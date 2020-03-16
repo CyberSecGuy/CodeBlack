@@ -1,0 +1,10 @@
+main: dev.cybersecguy.cyber.CodeBlack.CodeBlack
+name: ${project.name}
+version: ${project.version}
+author: CyberSecGuy
+description: ${project.description}
+commands:
+ codeblack:
+  description: Adds a users IP address to the network blacklist.
+  usage: /codeblack <PlayerName>
+  aliases: [cb, nuke, thorshammer]

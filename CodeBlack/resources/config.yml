@@ -1,0 +1,25 @@
+# CodeBlack Configuration File
+# Author: me@cybersecguy.dev
+
+# Developer debug - (Default: false)
+# Used for plugin development.
+Debug: false
+
+# Name of the plugin, in case you want to rename the plugin for security purposes.
+# Default: "CodeBlack"
+Plugin Name: "CodeBlack"
+
+# The prefix of the plugin that may appear in the system log, chat, or anywhere else necessary.
+# The name used above will replace %name% - think of this as a variable.
+# Default: "[%name] " - Color Codes supported.
+Prefix: "[%name%] "
+
+# Permission node. Be very careful giving this out to people.
+# You should seriously consider hardening your login methods with 2FA Authentication.
+# Default: "codeblack.admin"
+Perm Node: "codeblack.admin"
+
+# This is the message we send when a player doesn't have permission to run the command.
+# The suggested default will help conceal the presence of the plugin, for security purposes.
+# Default: "Unknown command. Type \"/help\" for help."
+No Permission Notice: "Unknown command. Type \"/help\" for help."
